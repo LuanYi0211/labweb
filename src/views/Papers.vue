@@ -42,49 +42,6 @@
             {{ item.title }}    
         </p>
     </div>
-    <div>
-        <h1>论文</h1>
-        <hr>
-        <div class="year">
-            <p style="display:inline">按年份查询：</p>
-            <el-link 
-            type="primary" 
-            @click="getYear(item)"
-            v-for="item in yearData"
-            :key="item"
-            :index="item"
-            >
-            <span>{{ item }}</span>
-            <p style="display:inline;color: black;"> | </p>
-            </el-link>
-        </div>
-        <h3>{{ year }}</h3>
-        <hr>
-        <!-- <div>
-            <el-link type="primary">会议</el-link><p style="display:inline"> | </p>
-            <el-link type="primary">期刊</el-link>
-        </div>
-        <h3>会议</h3>
-        <div>
-            <p style="display:inline">按首字母索引：</p>
-            <el-link 
-            type="primary" 
-            @click="getLetter(litem)"
-            v-for="litem in letters"
-            :key="litem"
-            :index="litem"
-            >
-            <span>{{ litem }}</span>
-            <p style="display:inline;color: black;"> | </p>
-            </el-link>
-        </div> -->
-        <div v-if="year === '全部'">
-            <p v-for="item in conference">{{ item.title }}</p>    
-        </div>
-        <p v-for="item in trueYear">
-            {{ item.title }}    
-        </p>
-    </div>
 </template>
 <script>
 export default {
