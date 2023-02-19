@@ -1,6 +1,7 @@
 <template>
   <div class="foot">
-    <span class="contact">联系我们：contact@bistu.edu.cn</span>
+    <p class="contact">联系地址 : 北京市朝阳区北四环中路35号</p>
+    <p class="contact">电话 : 010-64884650</p>
   </div>
 </template>
 <script>
@@ -13,7 +14,7 @@ export default {
 <style lang="less" scoped>
 .foot {
   background-color: #333;
-  height: 50px;
+  height: 70px;
   text-align: center;
   padding: 0 20px;
   .contact {

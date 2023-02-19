@@ -12,6 +12,7 @@ import DataCode from '../views/DataCode.vue'
 import Photo from '../views/Photo.vue'
 import Recruitment from '../views/Recruitment.vue'
 import Main from '../views/Main.vue'
+import Detail from '../views/Detail.vue'
 Vue.use(VueRouter)
 //1.创建路由组件
 //2.路由与组件映射
@@ -35,6 +36,7 @@ const routes = [
             { path: 'datacode', component: DataCode},
             { path: 'photo', component: Photo},
             { path: 'recruitment', component: Recruitment},
+            { path: 'detail', component: Detail},
         ]
     }
 ]

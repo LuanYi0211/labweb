@@ -173,13 +173,11 @@ export default {
   background-color: #545c64;
   width: 100%;
   .lab-name {
-    display: inline;
+    display: inline-block;
     align-items: center;
     background-color: #545c64;
     justify-content: space-between;
-    float: left;
     padding: 0 50px;
-    width: 473px;
     .lab {
       color: #fff;
       font-size: 18px;
@@ -187,13 +185,7 @@ export default {
     }
   }
   .menu {
-    display: inline;
-    float: right;
-    height: 100%;
-    .el-menu-demo {
-      height: 93px;
-      width: 850px;
-    }
+    display: inline-block;
   }
 }
 </style>
