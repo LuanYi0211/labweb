@@ -55,9 +55,55 @@ export default {
                 },
             ]
         }
+        return {
+            patents: [
+                {
+                    title: '应用文自动生成方法',
+                    img: require('../assets/1501277314297.jpg'),
+                    imgBig: [require('../assets/1501277314297.jpg')]
+                },
+                {
+                    title: '从网购用户评论中抽取产品特征信息的方法',
+                    img: require('../assets/1501277314297.jpg'),
+                    imgBig: [require('../assets/1501277314297.jpg')]
+                },
+                {
+                    title: 'NBA赛事新闻的自动生成方法',
+                    img: require('../assets/1501277314297.jpg'),
+                    imgBig: [require('../assets/1501277314297.jpg')]
+                },
+                {
+                    title: '金融领域的事件句抽取方法',
+                    img: require('../assets/1501277314297.jpg'),
+                    imgBig: [require('../assets/1501277314297.jpg')]
+                },
+                {
+                    title: '对高校网站上的会议稿进行知识抽取的方法',
+                    img: require('../assets/1501277314297.jpg'),
+                    imgBig: [require('../assets/1501277314297.jpg')]
+                },
+                {
+                    title: '基于距离测度学习的AP距离图像标注方法',
+                    img: require('../assets/1501277314297.jpg'),
+                    imgBig: [require('../assets/1501277314297.jpg')]
+                },
+            ]
+        }
     }
 }
 </script>
+<style>
+/* .box-card {
+    width: 300px;
+} */
+.el-card {
+    margin-right: 50px;
+}
+.el-col {
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+</style>
 <style>
 /* .box-card {
     width: 300px;
